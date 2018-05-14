@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="takeaway">
+        <item>havana</item>
+        <item>banana</item>
+        <item>grape</item>
+        <item>durian</item>
+    </string-array>
+   <integer-array name="picture">
+
+   </integer-array>
+</resources>

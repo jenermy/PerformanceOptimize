@@ -1,0 +1,12 @@
+apply plugin: 'java-library'
+apply plugin: 'application'
+mainClassName = 'com.example.greendaodao.GreenDaoGenerator'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'org.greenrobot:greendao-generator:3.2.2'
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
+//记得点开右边的gradle插件找到root目录下的Tasks->application->run,双击run执行一下就可以在java-gen目录下面生成一些文件了
